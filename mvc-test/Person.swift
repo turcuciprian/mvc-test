@@ -22,6 +22,7 @@ class Person{
         return "\(_firstName) \(_lastName)"
     }
     init(first: String,last: String){
-        
+        self._firstName = first
+        self._lastName = last
     }
 }
