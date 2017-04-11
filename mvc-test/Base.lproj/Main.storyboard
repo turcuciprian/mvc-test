@@ -34,6 +34,9 @@
                             <constraint firstItem="wKA-zL-vna" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qsP-GJ-8Mq"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="fullNameLbl" destination="wKA-zL-vna" id="tmk-hV-fRT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
