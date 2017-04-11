@@ -14,6 +14,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let person = Person(first: "Ciprian", last: "Turcu")
+        
+        fullNameLbl.text = " \(person.firstName) \(person.lastName)"
     }
 
     override func didReceiveMemoryWarning() {
