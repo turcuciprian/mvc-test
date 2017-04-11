@@ -21,7 +21,7 @@ class Person{
     var fullName : String{
         return "\(_firstName) \(_lastName)"
     }
-    init(){
+    init(first: String,last: String){
         
     }
 }
