@@ -18,11 +18,12 @@ class Person{
     var lastName: String{
         return _lastName
     }
-    var fullName : String{
-        return "\(_firstName) \(_lastName)"
-    }
     init(first: String,last: String){
         self._firstName = first
         self._lastName = last
+    }
+    
+    var fullName: String{
+        return "\(_firstName) \(_lastName)"
     }
 }

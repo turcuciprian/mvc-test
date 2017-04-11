@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let person = Person(first: "Ciprian", last: "Turcu")
         
-        fullNameLbl.text = " \(person.firstName) \(person.lastName)"
+        fullNameLbl.text = person.fullName
     }
 
     override func didReceiveMemoryWarning() {
