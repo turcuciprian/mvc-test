@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         let person = Person(first: "Ciprian", last: "Turcu")
         
         fullNameLbl.text = person.fullName
+        bobbyImg.layer.cornerRadius = 5
     }
 }
 
