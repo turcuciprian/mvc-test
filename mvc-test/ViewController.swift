@@ -12,17 +12,22 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var fullNameLbl: UILabel!
     @IBOutlet weak var renameField: UITextField!
+    let person = Person(first: "Ciprian", last: "Turcu")
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let person = Person(first: "Ciprian", last: "Turcu")
+        
         
         fullNameLbl.text = person.fullName
         
     }
     @IBAction func renamePressed(_ sender: Any) {
-        
+        if let txt = renameField.text {
+            person.firstName = txt
+            fullNameLbl.text = person.fullName
+            
+        }
     }
 }
 
