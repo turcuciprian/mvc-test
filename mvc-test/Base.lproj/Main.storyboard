@@ -27,7 +27,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bobby" translatesAutoresizingMaskIntoConstraints="NO" id="MKs-ua-i8g">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bobby" translatesAutoresizingMaskIntoConstraints="NO" id="MKs-ua-i8g" customClass="RoundedImage" customModule="mvc_test" customModuleProvider="target">
                                 <rect key="frame" x="67" y="375" width="240" height="234"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="234" id="Oe6-rN-ZOz"/>
