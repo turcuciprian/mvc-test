@@ -44,6 +44,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="bobbyImg" destination="MKs-ua-i8g" id="nFW-3n-wpn"/>
                         <outlet property="fullNameLbl" destination="wKA-zL-vna" id="tmk-hV-fRT"/>
                     </connections>
                 </viewController>
