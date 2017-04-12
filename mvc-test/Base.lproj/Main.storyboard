@@ -40,11 +40,24 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7jm-IZ-5Yd">
+                                <rect key="frame" x="152" y="402" width="70" height="30"/>
+                                <color key="backgroundColor" red="0.0010921549993507503" green="0.19328545225486476" blue="0.86058454949238583" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="KPI-tO-c17"/>
+                                    <constraint firstAttribute="height" constant="30" id="Yjo-7j-Wf4"/>
+                                </constraints>
+                                <state key="normal" title="Rename">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="bgP-bI-X2w" firstAttribute="leading" secondItem="MKs-ua-i8g" secondAttribute="leading" id="AEE-DU-Dqs"/>
                             <constraint firstItem="bgP-bI-X2w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BV7-uH-e3b"/>
+                            <constraint firstItem="7jm-IZ-5Yd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GJx-xe-pCP"/>
+                            <constraint firstItem="7jm-IZ-5Yd" firstAttribute="top" secondItem="bgP-bI-X2w" secondAttribute="bottom" constant="8" id="KZ0-QV-PdJ"/>
                             <constraint firstItem="MKs-ua-i8g" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MA9-Al-4xn"/>
                             <constraint firstItem="wKA-zL-vna" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TNm-U7-vmp"/>
                             <constraint firstItem="bgP-bI-X2w" firstAttribute="trailing" secondItem="MKs-ua-i8g" secondAttribute="trailing" id="ZkI-c5-BtS"/>
