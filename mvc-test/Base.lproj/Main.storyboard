@@ -62,9 +62,9 @@
                             <constraint firstItem="7jm-IZ-5Yd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GJx-xe-pCP"/>
                             <constraint firstItem="7jm-IZ-5Yd" firstAttribute="top" secondItem="bgP-bI-X2w" secondAttribute="bottom" constant="8" id="KZ0-QV-PdJ"/>
                             <constraint firstItem="MKs-ua-i8g" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MA9-Al-4xn"/>
-                            <constraint firstItem="wKA-zL-vna" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TNm-U7-vmp"/>
                             <constraint firstItem="bgP-bI-X2w" firstAttribute="trailing" secondItem="MKs-ua-i8g" secondAttribute="trailing" id="ZkI-c5-BtS"/>
                             <constraint firstItem="MKs-ua-i8g" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="36" id="bam-t6-wCT"/>
+                            <constraint firstItem="wKA-zL-vna" firstAttribute="top" secondItem="MKs-ua-i8g" secondAttribute="bottom" constant="33" id="kfh-nL-Ytf"/>
                             <constraint firstItem="wKA-zL-vna" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qsP-GJ-8Mq"/>
                             <constraint firstItem="bgP-bI-X2w" firstAttribute="top" secondItem="wKA-zL-vna" secondAttribute="bottom" constant="20" id="yHh-ly-BsR"/>
                         </constraints>
