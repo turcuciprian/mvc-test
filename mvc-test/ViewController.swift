@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var fullNameLbl: UILabel!
+    @IBOutlet weak var renameField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()

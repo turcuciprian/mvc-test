@@ -55,6 +55,7 @@
                     </view>
                     <connections>
                         <outlet property="fullNameLbl" destination="wKA-zL-vna" id="tmk-hV-fRT"/>
+                        <outlet property="renameField" destination="bgP-bI-X2w" id="7o8-b7-ed5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
