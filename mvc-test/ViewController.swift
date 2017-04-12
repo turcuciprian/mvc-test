@@ -21,5 +21,8 @@ class ViewController: UIViewController {
         fullNameLbl.text = person.fullName
         
     }
+    @IBAction func renamePressed(_ sender: Any) {
+        
+    }
 }
 
