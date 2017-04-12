@@ -11,14 +11,14 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var fullNameLbl: UILabel!
-    @IBOutlet weak var bobbyImg: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let person = Person(first: "Ciprian", last: "Turcu")
         
         fullNameLbl.text = person.fullName
-        bobbyImg.layer.cornerRadius = 5
+        
     }
 }
 
