@@ -13,6 +13,7 @@
 		7D5397201E9D641F009F6066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D53971E1E9D641F009F6066 /* LaunchScreen.storyboard */; };
 		7D53972C1E9D653D009F6066 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D53972B1E9D653D009F6066 /* Person.swift */; };
 		7D53972F1E9E49A4009F6066 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D53972E1E9E49A4009F6066 /* Images.xcassets */; };
+		7D5397311E9E869D009F6066 /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5397301E9E869D009F6066 /* RoundedImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7D5397211E9D641F009F6066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D53972B1E9D653D009F6066 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		7D53972E1E9E49A4009F6066 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7D5397301E9E869D009F6066 /* RoundedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		7D5397271E9D64E1009F6066 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7D5397301E9E869D009F6066 /* RoundedImage.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D53972C1E9D653D009F6066 /* Person.swift in Sources */,
+				7D5397311E9E869D009F6066 /* RoundedImage.swift in Sources */,
 				7D5397181E9D641F009F6066 /* ViewController.swift in Sources */,
 				7D5397161E9D641F009F6066 /* AppDelegate.swift in Sources */,
 			);
