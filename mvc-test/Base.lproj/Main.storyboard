@@ -34,9 +34,9 @@
                                     <constraint firstAttribute="width" constant="240" id="uhW-bS-pl8"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bgP-bI-X2w">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter a new first name" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bgP-bI-X2w">
                                 <rect key="frame" x="67" y="364" width="240" height="30"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.55082837978203847" green="0.55904355439627607" blue="0.55924809644670048" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
