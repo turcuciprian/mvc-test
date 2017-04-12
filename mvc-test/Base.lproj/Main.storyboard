@@ -28,7 +28,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bobby" translatesAutoresizingMaskIntoConstraints="NO" id="MKs-ua-i8g" customClass="RoundedImage" customModule="mvc_test" customModuleProvider="target">
-                                <rect key="frame" x="67" y="375" width="240" height="234"/>
+                                <rect key="frame" x="67" y="56" width="240" height="234"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="234" id="Oe6-rN-ZOz"/>
                                     <constraint firstAttribute="width" constant="240" id="uhW-bS-pl8"/>
@@ -39,7 +39,7 @@
                         <constraints>
                             <constraint firstItem="MKs-ua-i8g" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MA9-Al-4xn"/>
                             <constraint firstItem="wKA-zL-vna" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TNm-U7-vmp"/>
-                            <constraint firstItem="MKs-ua-i8g" firstAttribute="top" secondItem="wKA-zL-vna" secondAttribute="bottom" constant="31" id="hlO-c0-YU1"/>
+                            <constraint firstItem="MKs-ua-i8g" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="36" id="bam-t6-wCT"/>
                             <constraint firstItem="wKA-zL-vna" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qsP-GJ-8Mq"/>
                         </constraints>
                     </view>
