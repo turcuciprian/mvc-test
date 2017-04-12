@@ -14,11 +14,8 @@ class Person{
     var firstName:String{
         get{
             return _firstName
-        }set{
-            if newValue != nil && newValue != ""{
+        } set {
                 _firstName = newValue
-                
-            }
         }
         
     }
